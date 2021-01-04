@@ -417,43 +417,27 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [info] >  (node:12948) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code. {"user":"(node:12948) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m (node:12948) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code."}}
 [warn] !  functions: Your function timed out after ~60s. To configure this timeout, see
       https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"Your function timed out after ~60s. To configure this timeout, see\n      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation."}}
-[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638
- {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
-[info] >              throw new Error("Function timed out.");
- {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
-[info] >              ^
- {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
-[info] >  
- {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
-[info] >  Error: Function timed out.
- {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
-[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19)
- {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
-[info] >      at listOnTimeout (internal/timers.js:554:17)
- {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
-[info] >      at processTimers (internal/timers.js:497:7)
- {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
+[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638 {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
+[info] >              throw new Error("Function timed out."); {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
+[info] >              ^ {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  Error: Function timed out. {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
+[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19) {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
+[info] >      at listOnTimeout (internal/timers.js:554:17) {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
+[info] >      at processTimers (internal/timers.js:497:7) {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
 [debug] [2021-01-04T03:44:09.943Z] [worker-api-2d8019fb-f28b-4400-b53c-2d96217f3f71]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-2d8019fb-f28b-4400-b53c-2d96217f3f71]: exited"}}
 [debug] [2021-01-04T03:44:09.944Z] [worker-api-2d8019fb-f28b-4400-b53c-2d96217f3f71]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-2d8019fb-f28b-4400-b53c-2d96217f3f71]: FINISHED"}}
 [debug] [2021-01-04T03:44:09.944Z] [work-queue] {"queueLength":0,"workRunningCount":1}
 [warn] !  functions: Your function timed out after ~60s. To configure this timeout, see
       https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"Your function timed out after ~60s. To configure this timeout, see\n      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation."}}
-[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638
- {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
-[info] >              throw new Error("Function timed out.");
- {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
-[info] >              ^
- {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
-[info] >  
- {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
-[info] >  Error: Function timed out.
- {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
-[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19)
- {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
-[info] >      at listOnTimeout (internal/timers.js:554:17)
- {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
-[info] >      at processTimers (internal/timers.js:497:7)
- {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
+[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638 {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
+[info] >              throw new Error("Function timed out."); {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
+[info] >              ^ {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  Error: Function timed out. {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
+[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19) {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
+[info] >      at listOnTimeout (internal/timers.js:554:17) {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
+[info] >      at processTimers (internal/timers.js:497:7) {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
 [debug] [2021-01-04T03:45:02.773Z] [worker-api-44954982-e397-4629-8f11-4461983afce2]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-44954982-e397-4629-8f11-4461983afce2]: exited"}}
 [debug] [2021-01-04T03:45:02.773Z] [worker-api-44954982-e397-4629-8f11-4461983afce2]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-44954982-e397-4629-8f11-4461983afce2]: FINISHED"}}
 [debug] [2021-01-04T03:45:02.774Z] [work-queue] {"queueLength":0,"workRunningCount":0}
@@ -500,22 +484,14 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [info] >  (node:4404) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code. {"user":"(node:4404) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m (node:4404) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code."}}
 [warn] !  functions: Your function timed out after ~60s. To configure this timeout, see
       https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"Your function timed out after ~60s. To configure this timeout, see\n      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation."}}
-[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638
- {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
-[info] >              throw new Error("Function timed out.");
- {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
-[info] >              ^
- {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
-[info] >  
- {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
-[info] >  Error: Function timed out.
- {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
-[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19)
- {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
-[info] >      at listOnTimeout (internal/timers.js:554:17)
- {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
-[info] >      at processTimers (internal/timers.js:497:7)
- {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
+[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638 {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
+[info] >              throw new Error("Function timed out."); {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
+[info] >              ^ {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  Error: Function timed out. {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
+[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19) {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
+[info] >      at listOnTimeout (internal/timers.js:554:17) {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
+[info] >      at processTimers (internal/timers.js:497:7) {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
 [debug] [2021-01-04T03:46:23.343Z] [worker-api-7c127c86-1ae7-42fa-bda9-e36a40831a5e]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-7c127c86-1ae7-42fa-bda9-e36a40831a5e]: exited"}}
 [debug] [2021-01-04T03:46:23.343Z] [worker-api-7c127c86-1ae7-42fa-bda9-e36a40831a5e]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-7c127c86-1ae7-42fa-bda9-e36a40831a5e]: FINISHED"}}
 [debug] [2021-01-04T03:46:23.344Z] [work-queue] {"queueLength":0,"workRunningCount":0}
@@ -602,43 +578,27 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [info] >  (node:1368) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code. {"user":"(node:1368) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m (node:1368) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code."}}
 [warn] !  functions: Your function timed out after ~60s. To configure this timeout, see
       https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"Your function timed out after ~60s. To configure this timeout, see\n      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation."}}
-[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638
- {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
-[info] >              throw new Error("Function timed out.");
- {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
-[info] >              ^
- {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
-[info] >  
- {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
-[info] >  Error: Function timed out.
- {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
-[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19)
- {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
-[info] >      at listOnTimeout (internal/timers.js:554:17)
- {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
-[info] >      at processTimers (internal/timers.js:497:7)
- {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
+[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638 {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
+[info] >              throw new Error("Function timed out."); {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
+[info] >              ^ {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  Error: Function timed out. {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
+[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19) {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
+[info] >      at listOnTimeout (internal/timers.js:554:17) {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
+[info] >      at processTimers (internal/timers.js:497:7) {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
 [debug] [2021-01-04T03:50:04.134Z] [worker-api-cef95e60-4184-4560-ac51-db54b29fee5a]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-cef95e60-4184-4560-ac51-db54b29fee5a]: exited"}}
 [debug] [2021-01-04T03:50:04.134Z] [worker-api-cef95e60-4184-4560-ac51-db54b29fee5a]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-cef95e60-4184-4560-ac51-db54b29fee5a]: FINISHED"}}
 [debug] [2021-01-04T03:50:04.134Z] [work-queue] {"queueLength":0,"workRunningCount":1}
 [warn] !  functions: Your function timed out after ~60s. To configure this timeout, see
       https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"Your function timed out after ~60s. To configure this timeout, see\n      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation."}}
-[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638
- {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
-[info] >              throw new Error("Function timed out.");
- {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
-[info] >              ^
- {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
-[info] >  
- {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
-[info] >  Error: Function timed out.
- {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
-[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19)
- {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
-[info] >      at listOnTimeout (internal/timers.js:554:17)
- {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
-[info] >      at processTimers (internal/timers.js:497:7)
- {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
+[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638 {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
+[info] >              throw new Error("Function timed out."); {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
+[info] >              ^ {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  Error: Function timed out. {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
+[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19) {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
+[info] >      at listOnTimeout (internal/timers.js:554:17) {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
+[info] >      at processTimers (internal/timers.js:497:7) {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
 [debug] [2021-01-04T03:50:15.940Z] [worker-api-29de25d8-f94a-48cc-954d-a4c928137269]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-29de25d8-f94a-48cc-954d-a4c928137269]: exited"}}
 [debug] [2021-01-04T03:50:15.940Z] [worker-api-29de25d8-f94a-48cc-954d-a4c928137269]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-29de25d8-f94a-48cc-954d-a4c928137269]: FINISHED"}}
 [debug] [2021-01-04T03:50:15.940Z] [work-queue] {"queueLength":0,"workRunningCount":0}
@@ -725,43 +685,27 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [info] >  (node:13420) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code. {"user":"(node:13420) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m (node:13420) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code."}}
 [warn] !  functions: Your function timed out after ~60s. To configure this timeout, see
       https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"Your function timed out after ~60s. To configure this timeout, see\n      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation."}}
-[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638
- {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
-[info] >              throw new Error("Function timed out.");
- {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
-[info] >              ^
- {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
-[info] >  
- {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
-[info] >  Error: Function timed out.
- {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
-[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19)
- {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
-[info] >      at listOnTimeout (internal/timers.js:554:17)
- {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
-[info] >      at processTimers (internal/timers.js:497:7)
- {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
+[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638 {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
+[info] >              throw new Error("Function timed out."); {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
+[info] >              ^ {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  Error: Function timed out. {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
+[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19) {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
+[info] >      at listOnTimeout (internal/timers.js:554:17) {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
+[info] >      at processTimers (internal/timers.js:497:7) {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
 [debug] [2021-01-04T03:52:09.001Z] [worker-api-d73cf2ce-2199-4e52-a907-96a130f35bb4]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-d73cf2ce-2199-4e52-a907-96a130f35bb4]: exited"}}
 [debug] [2021-01-04T03:52:09.001Z] [worker-api-d73cf2ce-2199-4e52-a907-96a130f35bb4]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-d73cf2ce-2199-4e52-a907-96a130f35bb4]: FINISHED"}}
 [debug] [2021-01-04T03:52:09.001Z] [work-queue] {"queueLength":0,"workRunningCount":1}
 [warn] !  functions: Your function timed out after ~60s. To configure this timeout, see
       https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"Your function timed out after ~60s. To configure this timeout, see\n      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation."}}
-[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638
- {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
-[info] >              throw new Error("Function timed out.");
- {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
-[info] >              ^
- {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
-[info] >  
- {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
-[info] >  Error: Function timed out.
- {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
-[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19)
- {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
-[info] >      at listOnTimeout (internal/timers.js:554:17)
- {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
-[info] >      at processTimers (internal/timers.js:497:7)
- {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
+[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638 {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
+[info] >              throw new Error("Function timed out."); {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
+[info] >              ^ {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  Error: Function timed out. {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
+[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19) {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
+[info] >      at listOnTimeout (internal/timers.js:554:17) {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
+[info] >      at processTimers (internal/timers.js:497:7) {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
 [debug] [2021-01-04T03:52:25.291Z] [worker-api-a1732fee-2c87-4213-adae-ffbbc42fe21e]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-a1732fee-2c87-4213-adae-ffbbc42fe21e]: exited"}}
 [debug] [2021-01-04T03:52:25.291Z] [worker-api-a1732fee-2c87-4213-adae-ffbbc42fe21e]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-a1732fee-2c87-4213-adae-ffbbc42fe21e]: FINISHED"}}
 [debug] [2021-01-04T03:52:25.291Z] [work-queue] {"queueLength":0,"workRunningCount":0}
@@ -859,22 +803,14 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [debug] [2021-01-04T04:01:37.697Z] [worker-~diagnostic~-501c5d7d-d5bf-467e-80a0-fad07f734f6c]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-501c5d7d-d5bf-467e-80a0-fad07f734f6c]: IDLE"}}
 [warn] !  functions: Your function timed out after ~60s. To configure this timeout, see
       https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"Your function timed out after ~60s. To configure this timeout, see\n      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation."}}
-[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638
- {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
-[info] >              throw new Error("Function timed out.");
- {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
-[info] >              ^
- {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
-[info] >  
- {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
-[info] >  Error: Function timed out.
- {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
-[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19)
- {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
-[info] >      at listOnTimeout (internal/timers.js:554:17)
- {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
-[info] >      at processTimers (internal/timers.js:497:7)
- {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
+[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638 {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
+[info] >              throw new Error("Function timed out."); {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
+[info] >              ^ {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  Error: Function timed out. {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
+[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19) {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
+[info] >      at listOnTimeout (internal/timers.js:554:17) {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
+[info] >      at processTimers (internal/timers.js:497:7) {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
 [debug] [2021-01-04T04:01:44.003Z] [worker-api-b7af4e07-1f84-457a-a5f1-326ac7f6ac02]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-b7af4e07-1f84-457a-a5f1-326ac7f6ac02]: exited"}}
 [debug] [2021-01-04T04:01:44.003Z] [worker-api-b7af4e07-1f84-457a-a5f1-326ac7f6ac02]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-b7af4e07-1f84-457a-a5f1-326ac7f6ac02]: FINISHED"}}
 [debug] [2021-01-04T04:01:44.003Z] [work-queue] {"queueLength":0,"workRunningCount":0}
@@ -962,43 +898,27 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [info] >  (node:14968) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code. {"user":"(node:14968) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m (node:14968) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code."}}
 [warn] !  functions: Your function timed out after ~60s. To configure this timeout, see
       https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"Your function timed out after ~60s. To configure this timeout, see\n      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation."}}
-[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638
- {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
-[info] >              throw new Error("Function timed out.");
- {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
-[info] >              ^
- {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
-[info] >  
- {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
-[info] >  Error: Function timed out.
- {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
-[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19)
- {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
-[info] >      at listOnTimeout (internal/timers.js:554:17)
- {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
-[info] >      at processTimers (internal/timers.js:497:7)
- {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
+[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638 {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
+[info] >              throw new Error("Function timed out."); {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
+[info] >              ^ {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  Error: Function timed out. {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
+[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19) {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
+[info] >      at listOnTimeout (internal/timers.js:554:17) {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
+[info] >      at processTimers (internal/timers.js:497:7) {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
 [debug] [2021-01-04T04:02:47.983Z] [worker-api-8194d926-bad2-48b2-8512-4ec4fab1bd68]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-8194d926-bad2-48b2-8512-4ec4fab1bd68]: exited"}}
 [debug] [2021-01-04T04:02:47.983Z] [worker-api-8194d926-bad2-48b2-8512-4ec4fab1bd68]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-8194d926-bad2-48b2-8512-4ec4fab1bd68]: FINISHED"}}
 [debug] [2021-01-04T04:02:47.983Z] [work-queue] {"queueLength":0,"workRunningCount":1}
 [warn] !  functions: Your function timed out after ~60s. To configure this timeout, see
       https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"Your function timed out after ~60s. To configure this timeout, see\n      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation."}}
-[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638
- {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
-[info] >              throw new Error("Function timed out.");
- {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
-[info] >              ^
- {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
-[info] >  
- {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
-[info] >  Error: Function timed out.
- {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
-[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19)
- {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
-[info] >      at listOnTimeout (internal/timers.js:554:17)
- {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
-[info] >      at processTimers (internal/timers.js:497:7)
- {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
+[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638 {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
+[info] >              throw new Error("Function timed out."); {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
+[info] >              ^ {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  Error: Function timed out. {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
+[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19) {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
+[info] >      at listOnTimeout (internal/timers.js:554:17) {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
+[info] >      at processTimers (internal/timers.js:497:7) {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
 [debug] [2021-01-04T04:02:52.221Z] [worker-api-680a24f5-5a04-4a0f-9b97-f2023c6335a6]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-680a24f5-5a04-4a0f-9b97-f2023c6335a6]: exited"}}
 [debug] [2021-01-04T04:02:52.221Z] [worker-api-680a24f5-5a04-4a0f-9b97-f2023c6335a6]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-680a24f5-5a04-4a0f-9b97-f2023c6335a6]: FINISHED"}}
 [debug] [2021-01-04T04:02:52.221Z] [work-queue] {"queueLength":0,"workRunningCount":0}
@@ -1095,81 +1015,14 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [info] >  (node:1524) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code. {"user":"(node:1524) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m (node:1524) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code."}}
 [warn] !  functions: Your function timed out after ~60s. To configure this timeout, see
       https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"Your function timed out after ~60s. To configure this timeout, see\n      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation."}}
-[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638
- {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
-[info] >              throw new Error("Function timed out.");
- {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
-[info] >              ^
- {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
-[info] >  
- {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
-[info] >  Error: Function timed out.
- {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
-[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19)
- {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
-[info] >      at listOnTimeout (internal/timers.js:554:17)
- {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
-[info] >      at processTimers (internal/timers.js:497:7)
- {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
+[info] >  C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638 {"user":"C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638\r"}}
+[info] >              throw new Error("Function timed out."); {"user":"            throw new Error(\"Function timed out.\");\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             throw new Error(\"Function timed out.\");\r"}}
+[info] >              ^ {"user":"            ^\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m             ^\r"}}
+[info] >   {"user":"\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m \r"}}
+[info] >  Error: Function timed out. {"user":"Error: Function timed out.\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m Error: Function timed out.\r"}}
+[info] >      at Timeout._onTimeout (C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:638:19) {"user":"    at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at Timeout._onTimeout (C:\\Users\\Anthony\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:638:19)\r"}}
+[info] >      at listOnTimeout (internal/timers.js:554:17) {"user":"    at listOnTimeout (internal/timers.js:554:17)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at listOnTimeout (internal/timers.js:554:17)\r"}}
+[info] >      at processTimers (internal/timers.js:497:7) {"user":"    at processTimers (internal/timers.js:497:7)\r","metadata":{"emulator":{"name":"functions"},"function":{"name":"api"},"message":"\u001b[90m> \u001b[39m     at processTimers (internal/timers.js:497:7)\r"}}
 [debug] [2021-01-04T04:19:15.960Z] [worker-api-f638d1f2-cc8c-420b-8c02-660b88bdbb07]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-f638d1f2-cc8c-420b-8c02-660b88bdbb07]: exited"}}
 [debug] [2021-01-04T04:19:15.960Z] [worker-api-f638d1f2-cc8c-420b-8c02-660b88bdbb07]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-api-f638d1f2-cc8c-420b-8c02-660b88bdbb07]: FINISHED"}}
 [debug] [2021-01-04T04:19:15.961Z] [work-queue] {"queueLength":0,"workRunningCount":0}
-[debug] [2021-01-04T04:28:51.652Z] Received signal SIGHUP 1
-[debug] [2021-01-04T15:19:02.020Z] ----------------------------------------------------------------------
-[debug] [2021-01-04T15:19:02.023Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Anthony\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2021-01-04T15:19:02.023Z] CLI Version:   9.1.0
-[debug] [2021-01-04T15:19:02.023Z] Platform:      win32
-[debug] [2021-01-04T15:19:02.023Z] Node Version:  v14.15.3
-[debug] [2021-01-04T15:19:02.024Z] Time:          Mon Jan 04 2021 15:19:02 GMT+0000 (Greenwich Mean Time)
-[debug] [2021-01-04T15:19:02.024Z] ----------------------------------------------------------------------
-[debug] [2021-01-04T15:19:02.024Z] 
-[debug] [2021-01-04T15:19:02.035Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-01-04T15:19:02.036Z] > authorizing via signed-in user
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  C:\Users\Anthony\Desktop\Web Dev\Amazon\amazonia
-
-Before we get started, keep in mind:
-
-  * You are initializing in an existing Firebase project directory
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[info] i  .firebaserc already has a default project, using ia-5bb99. 
-[debug] [2021-01-04T15:19:15.908Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2021-01-04T15:19:15.908Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- <request body omitted>
-[debug] [2021-01-04T15:19:16.057Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Mon, 04 Jan 2021 15:19:16 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-01-04T15:19:16.062Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/ia-5bb99  
- 
-[debug] [2021-01-04T15:19:16.282Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 15:19:17 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[info] 
-=== Functions Setup
-[info] 
-[info] A functions directory will be created in your project with a Node.js
-[info] package pre-configured. Functions can be deployed with firebase deploy.
-[info] 
-[debug] [2021-01-04T15:19:16.284Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-01-04T15:19:16.285Z] > authorizing via signed-in user
-[debug] [2021-01-04T15:19:16.285Z] [iam] checking project ia-5bb99 for permissions ["firebase.projects.get"]
-[debug] [2021-01-04T15:19:16.285Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ia-5bb99:testIamPermissions  
- {"permissions":["firebase.projects.get"]}
-[debug] [2021-01-04T15:19:16.525Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 15:19:17 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=129","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-01-04T15:19:16.526Z] >>> HTTP REQUEST POST https://serviceusage.googleapis.com/v1/projects/ia-5bb99/services/cloudfunctions.googleapis.com:enable  
- 
-[debug] [2021-01-04T15:19:16.526Z] >>> HTTP REQUEST POST https://serviceusage.googleapis.com/v1/projects/ia-5bb99/services/runtimeconfig.googleapis.com:enable  
- 
-[debug] [2021-01-04T15:19:17.353Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 15:19:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-01-04T15:19:17.355Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 04 Jan 2021 15:19:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
