@@ -13,11 +13,45 @@ function Payment() {
   const stripe = useStripe();
   const elements = useElements();
 
+  const [succeeded, setSucceeded] = useState(false);
+  const [processing, setProcessing] = useState("");
   const [error, setError] = useState(null);
   const [disabled, setDisabled] = useState(true);
+  const [clientSecret, setClientSecret] = useState(true);
 
-  const handleSubmit = (e) => {
+  useEffect(() => {
+    // generates special stripe secret -- allows to charge customers.
+
+    const getClientSecret = async () => {
+      const response = await axios({
+        method: "post",
+        url: "/payments/create?total=${getBasketTotal(basket) * 100 }",
+      });
+      setClientSecret(response.data.clientSecret);
+    };
+
+    getClientSecret();
+  }, [basket]);
+
+  const handleSubmit = async (event) => {
     // Stripe stuff in here
+    event.preventDefault();
+    setProcessing(true);
+
+    const payload = await stripe
+      .confirmCardPayment(clientSecret, {
+        payment_method: {
+          card: elements.getElement(CardElement),
+        },
+      })
+      .then(({ paymentIntent }) => {
+        // paymentIntent = payment confirmation
+        setSucceeded(true);
+        setError(null);
+        setProcessing(false);
+
+        history.replaceState("/orders");
+      });
   };
 
   const handleChange = (event) => {
@@ -80,7 +114,13 @@ function Payment() {
                   thousandSeparator={true}
                   prefix={"£"}
                 />
+                <button disabled={processing || disabled || succeeded}>
+                  <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
+                </button>
               </div>
+
+              {/* Errors go here */}
+              {error && <div>{error}</div>}
             </form>
           </div>
         </div>
